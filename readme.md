@@ -1,4 +1,4 @@
-# Sample Size Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Sample Size Calculator Widget for WordPress
 
 This sample size calculator enables you to calculate the minimum sample size and the margin of error. Learn about sample size, the margin of error, & confidence interval.
 
