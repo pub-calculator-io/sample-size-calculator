@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Sample Size Calculator by www.calculator.io
+Plugin Name: CI Sample size calculator
 Plugin URI: https://www.calculator.io/sample-size-calculator/
 Description: This sample size calculator enables you to calculate the minimum sample size and the margin of error. Learn about sample size, the margin of error, & confidence interval.
 Version: 1.0.0
