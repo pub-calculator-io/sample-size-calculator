@@ -1,4 +1,4 @@
-=== Sample Size Calculator ===
+=== Sample Size Calculator by www.calculator.io ===
 Contributors: calculatorio
 Tags: sample size calculator, margin of error estimation, confidence interval computation, statistical population analysis, z-score usage in sampling, confidence level determination, variance in sample distribution, population parameter range, equations for confidence intervals, calculation of required sample size
 Requires at least: 5.0
