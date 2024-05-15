@@ -32,7 +32,7 @@
                 </div>
                 <div class="calculator-content col">
                 	<div class="input-wrapper row tab tab--active" data-tab="0">
-                		<label class="input col ">
+                		<label class="input col standard-deviation-calculator,z-score-calculator,mean-calculator,proportion-calculator">
                 			<p class="input__title">Confidence Level</p>
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row " tabindex="0">
@@ -85,7 +85,7 @@
                 			</div>
                 		</label>	</div>
                 	<div class="input-wrapper row tab" data-tab="1">
-                		<label class="input col ">
+                		<label class="input col standard-deviation-calculator,z-score-calculator,mean-calculator,proportion-calculator">
                 			<p class="input__title">Confidence Level</p>
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row " tabindex="0">
@@ -164,13 +164,16 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
                 
+                	<script type="text/javascript" src="./assets/js/lib/math.min.js" async></script>
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -185,15 +188,14 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col tab tab--active" data-tab="0">
 	<p class="table-cell table-cell--dark table-cell--only-title">Sample Size</p>
-	<p class="table-cell table-cell--only" id="result_sample_size">385</p>
+	<p class="table-cell table-cell--only animate" id="result_sample_size">385</p>
 </div>
 <div class="calculator-result col tab" data-tab="1">
 	<p class="table-cell table-cell--dark table-cell--only-title">Margin of Error</p>
-	<p class="table-cell table-cell--only" id="result_margin_of_error">9.8%</p>
+	<p class="table-cell table-cell--only animate" id="result_margin_of_error">9.8%</p>
 </div>
 </span>
     </div>

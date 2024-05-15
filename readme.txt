@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Sample Size Cal
 == Screenshots ==
 
 1. The Sample Size Calculator Input Form.
-2. The Sample Size Calculator Calculation Results.
 
 == Installation ==
 

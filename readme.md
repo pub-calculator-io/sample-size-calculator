@@ -3,7 +3,6 @@
 This sample size calculator enables you to calculate the minimum sample size and the margin of error. Learn about sample size, the margin of error, & confidence interval.
 
 ![Sample Size Calculator Input Form](/assets/images/screenshot-1.png "Sample Size Calculator Input Form")
-![Sample Size Calculator Calculation Results](/assets/images/screenshot-2.png "Sample Size Calculator Calculation Results")
 
 ## Installation
 
